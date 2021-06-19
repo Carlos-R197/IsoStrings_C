@@ -8,4 +8,9 @@ spec("This program tests if given strings are isomorphic")
 	{
 		check(areIsomorphic("", "") == true);
 	}
+	
+	it("Should return false since foo and bar are not isomorphic")
+	{
+		check(areIsomorphic("foo", "bar") == false);
+	}
 }
