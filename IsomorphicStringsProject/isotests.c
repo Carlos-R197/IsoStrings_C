@@ -13,4 +13,9 @@ spec("This program tests if given strings are isomorphic")
 	{
 		check(areIsomorphic("foo", "bar") == false);
 	}
+	
+	it("Should return true since egg and add are isomoprhic")
+	{
+		check(areIsomorphic("egg", "add") == true);
+	}
 }
