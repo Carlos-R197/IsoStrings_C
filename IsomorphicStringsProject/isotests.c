@@ -23,4 +23,9 @@ spec("This program tests if given strings are isomorphic")
 	{
 		check(areIsomorphic("paper", "title") == true);
 	}
+	
+	it("Should return false since map and add are not isomorphic")
+	{
+		check(areIsomorphic("map", "add") == false);
+	}
 }
